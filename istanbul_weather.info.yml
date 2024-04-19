@@ -1,0 +1,7 @@
+name: 'Istanbul Weather'
+type: module
+description: 'Displays current weather information for Istanbul.'
+package: Custom
+core_version_requirement: ^10
+dependencies:
+  - drupal:block

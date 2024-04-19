@@ -1,0 +1,12 @@
+<div class="weather-block">
+  <h2>Weather in Istanbul</h2>
+  {% if weather %}
+    <p><strong>{{ weather.weather[0].description }}</strong></p>
+    <p>Temperature: {{ weather.main.temp }}°C</p>
+    <p>Humidity: {{ weather.main.humidity }}%</p>
+    <p>Wind Speed: {{ weather.wind.speed }} m/s</p>
+    <img src="http://openweathermap.org/img/w/{{ weather.weather[0].icon }}.png" alt="Weather Icon">
+  {% else %}
+    <p>No weather data available.</p>
+  {% endif %}
+</div>

@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function istanbul_weather_theme() {
+  return [
+    'istanbul_weather_block' => [
+      'variables' => ['weather' => NULL],
+      'template' => 'istanbul-weather-block',
+    ],
+  ];
+}

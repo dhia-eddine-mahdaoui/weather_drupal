@@ -1,0 +1,4 @@
+weather-styling:
+  css:
+    theme:
+      css/style.css: {}
