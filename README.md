@@ -20,8 +20,7 @@ To install the Istanbul Weather module, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/istanbul_weather.git modules/custom/istanbul_weather
-
+   git clone git@github.com:dhia-eddine-mahdaoui/weather_drupal.git
 2. **Enable the Module:**  :
 Navigate to the Extend page in your Drupal administration area to enable the module, or use Drush:
 ```bash
