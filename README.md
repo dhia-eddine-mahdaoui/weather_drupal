@@ -21,17 +21,17 @@ To install the Istanbul Weather module, follow these steps:
 1. **Clone the Repository:**
    ```bash
    git clone git@github.com:dhia-eddine-mahdaoui/weather_drupal.git
+   
 2. **Enable the Module:**  :
 Navigate to the Extend page in your Drupal administration area to enable the module, or use Drush:
 ```bash
-  drush en istanbul_weather -y
-
-
-4. **Configure the API Key::**
+   drush en istanbul_weather -y
+```
+3. **Configure the API Key::**
 Securely add your OpenWeatherMap API key to the settings.php file:
 ```PHP
     $settings['istanbul_weather_api_key'] = 'your_openweathermap_api_key';
-
+```
 ## Configuration
 After installation, navigate to the Block Layout page (/admin/structure/block) in your Drupal admin panel. Place the “Istanbul Weather Block” in your desired region of the site.
 
